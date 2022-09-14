@@ -9,17 +9,15 @@
         width: 85vw;
         height: 50vh;
     }
-
-    section#login > div#imagem {
-
+    
+    section#login > div#imagem, div#formulario {
+        display: flex;
     }
 }
+
 
 @media screen and (min-width: 1200px) {
     body, html {
         background-image: linear-gradient(to bottom, #F7B902, #DE217D, #004068);
-    }
-
-    section#login {
     }
 }
