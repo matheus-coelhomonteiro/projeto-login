@@ -7,11 +7,17 @@
 
     section#login {
         width: 85vw;
-        height: 50vh;
+        height: 40vh;
     }
     
-    section#login > div#imagem, div#formulario {
-        display: flex;
+    section#login > div#imagem {
+        float: left;
+        width: 25vw;
+        height: 50vh;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 60vw;
     }
 }
 
@@ -19,5 +25,20 @@
 @media screen and (min-width: 1200px) {
     body, html {
         background-image: linear-gradient(to bottom, #F7B902, #DE217D, #004068);
+    }
+
+    section#login {
+        width: 85vw;
+        height: 40vh;
+    }
+    
+    section#login > div#imagem {
+        float: right;
+        width: 43vw;
+        height: 50vh;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 42vw;
     }
 }
