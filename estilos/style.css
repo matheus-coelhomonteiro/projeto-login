@@ -19,6 +19,15 @@ main {
     width: 100vw;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+p {
+    font-size: 0.9em;
+}
+
 section#login {
     position: absolute;
     top: 50%;
@@ -46,8 +55,24 @@ section#login > div#formulario {
     padding: 10px;
 }
 
+p#form {
+    margin: 3px;
+    padding: 5px;
+    background-color: #004C78;
+    border-radius: 8px;
+}
 
-h1 {
-    text-align: center;
-    margin-bottom: 10px;
+input#botao {
+    margin: 3px;
+    padding: 9px;
+    width: 228px;
+    border-radius: 8px;
+    border: none;
+    background-color: #004C78;
+    color: white;
+}
+
+label {
+    width: 50vw;
+    color: white;
 }
