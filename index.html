@@ -18,14 +18,18 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <p id="form"><label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                        <input type="email" name="email" id="iemail" required size="24" placeholder="E-mail">
-                    </p>
-                    <p id="form"><label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
-                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="24" placeholder="Senha">
-                    </p>
-                    <p><input id="botao" type="submit" value="Enviar"></p>
-                    <p><input id="botao" type="button" value="Esqueci a senha"></p>
+                    <div class="campo">
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="iemail" required size="24" placeholder="E-mail" autocomplete="email">
+                    </div>
+                    <div class="campo">
+                        <label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="24" placeholder="Senha" autocomplete="current-password">
+                    </div>
+                    <input id="botao" type="submit" value="Entrar">
+                    <a href="esqueci.html">
+                        esqueci a senha <i class="material-symbols-outlined">mail</i>
+                    </a>
                 </form>
             </div>
         </section>

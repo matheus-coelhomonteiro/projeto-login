@@ -24,10 +24,6 @@ h1 {
     margin-bottom: 9px;
 }
 
-p {
-    font-size: 0.9em;
-}
-
 section#login {
     position: absolute;
     top: 50%;
@@ -54,11 +50,15 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
-    display: block;
-    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-p#form {
+div#formulario > p {
+    font-size: 0.8;
+}
+
+.campo {
     margin: 3px;
     padding: 5px;
     background-color: #004C78;
@@ -76,6 +76,5 @@ input#botao {
 }
 
 label {
-    width: 50vw;
     color: white;
 }
